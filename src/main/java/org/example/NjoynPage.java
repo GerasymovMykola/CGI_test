@@ -2,17 +2,25 @@ package org.example;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 public class NjoynPage {
 
     private final By fldKeywords = By.xpath("//input[@id='Inp_Keywords']");
     private final By fldCity = By.xpath("//input[@id='Inp_City']");
-    private final By btnSearch = By.xpath("//input[@id='joblistingsearchbutton]");
+    private final By btnSearch = By.xpath("//input[@id='joblistingsearchbutton']");
     private final By btnJobPosition = By.xpath("//div[@class='table-wrapper']//a[@href='XWeb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J0323-1740&BRID=1045234&lang=1']");
     private WebDriver driver;
 
     public NjoynPage(WebDriver driver) {
         this.driver = driver;
+    }
+
+    public NjoynPage openNjoynPage(){
+        driver.get("https://cgi.njoyn.com");
+        driver.manage().window().maximize();
+        return this;
     }
 
     public NjoynPage enterFldKeywords(String keywords){
@@ -28,8 +36,14 @@ public class NjoynPage {
     }
 
     public NjoynPage clickBtnSearch() {
-        driver.findElement((By) btnSearch).click();
+
+        WebElement elBtnSearch = driver.findElement(btnSearch);
+
+        Actions action= new Actions(driver);
+        action.moveToElement(elBtnSearch).build().perform();
+        elBtnSearch.click();
         return this;
+
     }
 
     public NjoynPage explWait() {
