@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53c0cca3-986d-433f-bfa4-a5ed94b92c23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CGI/.idea/CGI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CGI/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CGI/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CGI/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CGI/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CareerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JobPositionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JobPositionPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NjoynPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NjoynPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="53c0cca3-986d-433f-bfa4-a5ed94b92c23" name="Changes" comment="2&#10;&#10;2&#10;Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,6 +159,14 @@
       <option name="presentableId" value="Default" />
       <updated>1682289746524</updated>
     </task>
+    <task id="LOCAL-00001" summary="2&#10;&#10;2&#10;Initial commit">
+      <created>1682556835317</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682556835317</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,5 +191,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2&#10;&#10;2&#10;Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2&#10;&#10;2&#10;Initial commit" />
   </component>
 </project>
